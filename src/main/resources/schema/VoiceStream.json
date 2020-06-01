@@ -1,0 +1,87 @@
+{
+  "type":"object",
+  "javaType": "org.cem.VoiceStream",
+  "properties": {
+    "callScenario": {
+      "type": "integer"
+    },
+    "technology": {
+      "type": "string"
+    },
+    "streamType": {
+      "type": "string"
+    },
+    "callStartTimeSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "callStartTimeUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "imsi": {
+      "type": "string"
+    },
+    "msisdn": {
+      "type": "string"
+    },
+    "callingMsisdn": {
+      "type": "string"
+    },
+    "calledMsisdn": {
+      "type": "string"
+    },
+    "imei": {
+      "type": "string"
+    },
+    "sac": {
+      "type": "string"
+    },
+    "lac": {
+      "type": "string"
+    },
+    "dtapCcCause": {
+      "type": "string"
+    },
+    "dtapMmCause": {
+      "type": "string"
+    },
+    "dtapRrCause": {
+      "type": "string"
+    },
+    "ranapCause": {
+      "type": "string"
+    },
+    "conAckTimeSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "conAckTimeUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "releaseTimeSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "releaseTimeUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "callingNumberType": {
+      "type": "string"
+    },
+    "calledNumberType": {
+      "type": "string"
+    },
+    "signalingEndTimeSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "signalingEndTimeUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "pagingTimeStampSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "pagingTimeStampUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "probeId": {
+      "type": "string"
+    }
+  }
+}

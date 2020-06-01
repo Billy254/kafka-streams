@@ -1,0 +1,81 @@
+{
+  "type":"object",
+  "javaType": "org.cem.VoiceStreamOut",
+  "properties": {
+    "id": {
+      "type": "String"
+    },
+    "callScenario": {
+      "type": "String"
+    },
+    "technology": {
+      "type": "string"
+    },
+    "callStartTime": {
+      "type":"string", "default":""
+    },
+    "callDuration": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "imsi": {
+      "type": "string","default":""
+    },
+    "msisdn": {
+      "type": "string","default":""
+    },
+    "callingMsisdn": {
+      "type": "string","default":""
+    },
+    "calledMsisdn": {
+      "type": "string","default":""
+    },
+    "imei": {
+      "type": "string","default":""
+    },
+    "cgi": {
+      "type": "string","default":""
+    },
+    "conAckTime": {
+      "type":"string","default":""
+    },
+    "releaseTime": {
+      "type":"string","default":""
+    },
+    "signalingEndTime": {
+      "type":"string","default":""
+    },
+    "pagingTimeStamp": {
+      "type":"string", "default":""
+    },
+    "probeId": {
+      "type": "string","default":""
+    },
+    "siteName": {
+      "type": "string", "default":""
+    },
+    "cellRegion": {
+      "type": "string", "default":""
+    },
+    "latitudeDec": {
+      "type": "string", "default":""
+    },
+    "longitudeDec": {
+      "type": "string", "default":""
+    },
+    "dsFinalCauseStatus": {
+      "type": "string", "default":""
+    },
+    "dsSimplifiedCause": {
+      "type": "string", "default":""
+    },
+    "handsetName": {
+      "type": "string", "default":""
+    },
+    "manufacturer": {
+      "type": "string", "default":""
+    },
+    "OSandVersion": {
+      "type": "string", "default":""
+    }
+  }
+}

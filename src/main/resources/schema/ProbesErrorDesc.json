@@ -1,0 +1,15 @@
+{
+  "type":"object",
+  "javaType": "org.cem.ProbesErrorsDescription",
+  "properties": {
+    "dsCauseName1": {
+      "type": "string", "default":""
+    },
+    "dsFinalCauseStatus": {
+      "type": "string", "default":""
+    },
+    "dsSimplifiedCause": {
+      "type": "string", "default":""
+    }
+  }
+}

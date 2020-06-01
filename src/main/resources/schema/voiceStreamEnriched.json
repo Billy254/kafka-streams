@@ -1,0 +1,114 @@
+{
+  "type":"object",
+  "javaType": "org.cem.VoiceStreamEnriched",
+  "properties": {
+    "callScenario": {
+      "type": "integer"
+    },
+    "technology": {
+      "type": "string"
+    },
+    "streamType": {
+      "type": "string"
+    },
+    "callStartTimeSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "callStartTimeUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "imsi": {
+      "type": "string","default":""
+    },
+    "msisdn": {
+      "type": "string","default":""
+    },
+    "callingMsisdn": {
+      "type": "string","default":""
+    },
+    "calledMsisdn": {
+      "type": "string","default":""
+    },
+    "imei": {
+      "type": "string","default":""
+    },
+    "sac": {
+      "type": "string","default":""
+    },
+    "lac": {
+      "type": "string","default":""
+    },
+    "dtapCcCause": {
+      "type": "string","default":""
+    },
+    "dtapMmCause": {
+      "type": "string","default":""
+    },
+    "dtapRrCause": {
+      "type": "string","default":""
+    },
+    "ranapCause": {
+      "type": "string","default":""
+    },
+    "conAckTimeSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "conAckTimeUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "releaseTimeSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "releaseTimeUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "callingNumberType": {
+      "type": "string","default":""
+    },
+    "calledNumberType": {
+      "type": "string","default":""
+    },
+    "signalingEndTimeSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "signalingEndTimeUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "pagingTimeStampSecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "pagingTimeStampUsecs": {
+      "type":"string", "format":"utc-millisec", "default":"0"
+    },
+    "probeId": {
+      "type": "string","default":""
+    },
+    "siteName": {
+      "type": "string", "default":""
+    },
+    "cellRegion": {
+      "type": "string", "default":""
+    },
+    "latitudeDec": {
+      "type": "string", "default":""
+    },
+    "longitudeDec": {
+      "type": "string", "default":""
+    },
+    "dsFinalCauseStatus": {
+      "type": "string", "default":""
+    },
+    "dsSimplifiedCause": {
+      "type": "string", "default":""
+    },
+    "handsetName": {
+      "type": "string", "default":""
+    },
+    "manufacturer": {
+      "type": "string", "default":""
+    },
+    "OSandVersion": {
+      "type": "string", "default":""
+    }
+  }
+}

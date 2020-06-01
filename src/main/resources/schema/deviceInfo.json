@@ -1,0 +1,21 @@
+{
+  "type":"object",
+  "javaType": "org.cem.DeviceInformation",
+  "properties": {
+    "handsetName": {
+      "type": "string", "default":""
+    },
+    "manufacturer": {
+      "type": "string", "default":""
+    },
+    "operatingSystem": {
+      "type": "string", "default":""
+    },
+    "osVersion": {
+      "type": "string", "default":""
+    },
+    "capability": {
+      "type": "string", "default":""
+    }
+  }
+}

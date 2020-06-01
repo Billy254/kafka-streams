@@ -1,0 +1,18 @@
+{
+  "type":"object",
+  "javaType": "org.cem.SiteLocation",
+  "properties": {
+    "cellRegion": {
+      "type": "string", "default":""
+    },
+    "siteName": {
+      "type": "string", "default":""
+    },
+    "latitudeDec": {
+      "type": "string", "default":""
+    },
+    "longitudeDec": {
+      "type": "string", "default":""
+    }
+  }
+}
